@@ -1,0 +1,87 @@
+<style>.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    padding: 8px 102px 8px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.student-table th,
+.student-table td:last-child {
+    padding: 8px 8px 8px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+}
+
+.student-form {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.form-group {
+    flex: 1 0 33.33%;
+    padding: 0 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.action-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.action-button i {
+    margin-right: 5px;
+}
+
+.delete-button {
+    background-color: #730c04;
+    margin-left: 10px;
+}
+
+.delete-button:hover{
+    background-color: #dc7676;
+}
+
+.update-button {
+    background-color: #032545;
+}
+
+.update-button:hover {
+    background-color: #5589ba;
+}
+
+</style>
